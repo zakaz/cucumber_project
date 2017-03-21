@@ -33,7 +33,10 @@ public abstract class EbayAbstractClass {
 //		 System.setProperty("webdriver.gecko.driver", "src\\test\\java\\drivers\\geckodriver.exe");
 //        driver = new FirefoxDriver();
 
+        //Win
         System.setProperty("webdriver.chrome.driver", "src\\test\\java\\drivers\\chromedriver.exe");
+        //Linux
+//        System.setProperty("webdriver.chrome.driver", "src\\test\\java\\drivers\\chromedriver");
         driver = new ChromeDriver();
     }
 
