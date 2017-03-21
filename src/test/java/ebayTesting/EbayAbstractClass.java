@@ -27,14 +27,14 @@ public abstract class EbayAbstractClass {
     }
 
     private static void setDriver() {
-//         System.setProperty("webdriver.ie.driver", "C:\\Data\\For_grid\\IEDriverServer.exe");
+//         System.setProperty("webdriver.ie.driver", "src\\test\\java\\drivers\\IEDriverServer.exe");
 //        driver = new InternetExplorerDriver();
 //
-//		 System.setProperty("webdriver.gecko.driver", "C:\\Data\\For_grid\\geckodriver.exe");
+//		 System.setProperty("webdriver.gecko.driver", "src\\test\\java\\drivers\\geckodriver.exe");
 //        driver = new FirefoxDriver();
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Data\\For_grid\\chromedriver.exe");
-//        driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", "src\\test\\java\\drivers\\chromedriver.exe");
+        driver = new ChromeDriver();
     }
 
     public static void close(){
